@@ -1,4 +1,4 @@
-FROM dockerfile/ubuntu
+FROM ubuntu:latest
 
 RUN add-apt-repository -y ppa:nginx/stable
 RUN apt-get update
